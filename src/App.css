@@ -1,0 +1,11 @@
+.user-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, margin-top 0.3s ease-out;
+  margin-top: 0;
+}
+
+.user-details.active {
+  max-height: 500px; /* Adjust to a value that shows all content */
+  margin-top: 10px; /* Adjust based on your design preference */
+}
